@@ -1,0 +1,15 @@
+{
+  "name": "lastrecap",
+  "version": "1.0.0",
+  "description": "LastFM application to retrieve information about user most listened tracks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
