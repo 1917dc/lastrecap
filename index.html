@@ -4,23 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>lastfm recap</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-    <style>
-      h1 {
-         font-family: "Merriweather", serif;
-         color : #212121;
-         text-align : center;
-      }   
+    <link rel="stylesheet" href="./style.css">
     </style>
   </head>
   <body>
-    <header>
-      <h1>Lastfm recap</h1>
-    </header>
-    <div id="div">
+    <div id="container">
+      <header>
+        <div id="titulo-container">
+          <h1><span id="titulo">lastrecap</span>.com</h1>
+        </div>
+        <div id="subtitulo-container">
+          <div id="about-container">
+            <p id="about">[about]</p> 
+          </div>
+          <div id="recap-container">
+            <p id="recap">[recap]</p>
+          </div>
+        </div>
+     </header>
     </div>
-    <script src="./build/index.js"></script> 
+    <div id="container">
+      <header>
+        <div id="about-text-width">
+            <p id="p-about">
+            lastrecap is a website that consumes the Last FM API to gather information about user’s, and their most listened tracks or albums.
+
+    the usage is very simple, just type your Last FM username on “recap” and wait for the image to generate.
+          </p>
+          <div id="about-credits-container">
+             <p id="p-credits">created by <span id="span-credits-name">1917dc</span> | </p>
+            <span id="span-credits-github"><img src="./assets/github-logo.svg" alt="" id="svg-github-logo"></span>
+            </div>
+       </div>
+     </header>
+   </div>
+    <script src="./src/index.ts"></script> 
+    <script src="./src/dom-manipulation.ts"></script>
   </body>
 </html>
