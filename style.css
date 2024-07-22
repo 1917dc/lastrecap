@@ -8,7 +8,7 @@ h1 {
   color : white;
   font-family: "IBM Plex Mono", monospace; 
   font-weight: 400;
-  font-size: 5vh;
+  font-size: 7vh;
 }
 
 header {
@@ -31,7 +31,7 @@ header {
 #titulo-container {
   margin-top: 10vh;
   width: 100%;
-  margin-bottom: -8%;
+  margin-bottom: -10%;
 }
 
 #subtitulo-container {
@@ -39,13 +39,18 @@ header {
 }
 
 #about {
+  font-weight: 400;
+  font-family: "IBM Plex Mono", monospace;
+  background-color: transparent;
+  border: none;
   user-select: none;
-  font-size: 2vh;
+  font-size: 3vh;
   color: white;
+  padding: 0.2vh 0.2vh 0.2vh 0.2vh;
 }
 
 #about-container {
-  margin-right: 22.5vh;
+  margin-right: 29vh;
 }
 
 #about:hover {
@@ -54,27 +59,31 @@ header {
 
 
 #recap {
+  font-weight: 400;
+  font-family: "IBM Plex Mono", monospace;
+  background-color: transparent;
+  border: none;
   user-select: none;
   color: white;
-  font-size: 2vh;
+  font-size: 3vh;
+  padding: 0.2vh 0.2vh 0.2vh 0.2vh;
 }
 
 #recap:hover {
   background-color: #C60000;
 }
 
-#recap-container {
-}
-
-#p-about {
+#paragraph {
   user-select: none;
+  font-size: 1.9vh;
   color: white;
   align-items: center;
-  width: 40.5vh;
+  text-align: left;
+  width: 57vh;
 }
 
 #about-text-width {
-  width: 80%;
+  width: 100%;
   display: inline;
 }
 
@@ -87,13 +96,17 @@ header {
 }
 
 #svg-github-logo {
+  margin-top: 1.8vh;
+  margin-left: 1vh;
   height: 3vh;
-  padding-top: 50%;
+  width: 3vh;
+  border-radius: 100%;
 }
 
 #p-credits {
   user-select: none;
   color: white;
+  font-size: 2vh;
 }
 
 #about-credits-container {
