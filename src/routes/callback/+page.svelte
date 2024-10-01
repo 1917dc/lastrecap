@@ -60,3 +60,4 @@
 <div class="flex justify-center mt-4">
 	<a bind:this={downloadLink} class="btn btn-primary">Download Mosaic</a>
 </div>
+
