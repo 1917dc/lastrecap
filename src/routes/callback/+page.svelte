@@ -30,10 +30,11 @@
 				const y = Math.floor(index / cols) * imgHeight;
 				ctx.drawImage(img, x, y, imgWidth, imgHeight);
 				ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
-				ctx.fillRect(x, y + imgHeight - 20, imgWidth, 20);
+				ctx.fillRect(x, y + imgHeight - 40, imgWidth, 40);
 				ctx.fillStyle = 'white';
 				ctx.font = '12px Arial';
-				ctx.fillText(albums[index].name, x + 5, y + imgHeight - 5);
+				ctx.fillText(albums[index].name, x + 5, y + imgHeight - 25);
+				ctx.fillText(albums[index].artist.name, x + 5, y + imgHeight - 10);
 			});
 
 			downloadLink.href = canvas.toDataURL('image/png');
@@ -51,6 +52,7 @@
 			<img class="w-full h-full object-cover" src={album.images.image} alt="cover" on:contextmenu={preventDownload} on:dragstart={preventDownload}>
 			<div class="absolute inset-0" on:contextmenu={preventDownload} on:dragstart={preventDownload}></div>
 			<p class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white text-sm p-1">{album.name}</p>
+			<p class="absolute top-0 left-0 bg-black bg-opacity-50 text-white text-sm p-1">{album.artist.name}</p>
 		</div>
 	{/each}
 </div>
@@ -60,4 +62,3 @@
 <div class="flex justify-center mt-4">
 	<a bind:this={downloadLink} class="btn btn-primary">Download Mosaic</a>
 </div>
-
