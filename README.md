@@ -6,3 +6,5 @@
 - TypeScript
 - Tailwind CSS
 - DaisyUI
+
+# Still work in progress.
