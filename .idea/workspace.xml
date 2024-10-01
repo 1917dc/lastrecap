@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e61417-b408-4ca3-a285-9e1dbb55346a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/interfaces/Album.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/interfaces/Artist.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/interfaces/Images.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/+page.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/callback/+page.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/callback/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/user/+server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +25,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/1917dc/lastrecap.git",
+    "accountId": "f327a949-791b-4ba9-b35a-a64454f86928"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -83,7 +80,7 @@
       <updated>1727765289758</updated>
       <workItem from="1727765290757" duration="4111000" />
       <workItem from="1727786977309" duration="7043000" />
-      <workItem from="1727803343548" duration="7781000" />
+      <workItem from="1727803343548" duration="8083000" />
     </task>
     <servers />
   </component>
