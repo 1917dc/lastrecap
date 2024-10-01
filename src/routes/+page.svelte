@@ -1,5 +1,5 @@
 <div class="prose mt-32 m-auto">
-	<h1 class="text-primary text-center pt-10 mb-0">lastfm recap</h1>
+	<h1 class="text-primary text-center pt-10 mb-0">lastrecap</h1>
 	<div class="text-center">
 		<form class="form-control pl-20 pr-20 pt-10" action="/user" method="post">
 			<input class="input input-bordered text-white text-center mb-5" type="text" name="user" placeholder="username">
